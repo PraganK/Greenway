@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>VersionOne.Parsers</id>
+    <version>1.1.0.0</version>
+    <title>VersionOne Parsers Library</title>
+    <authors>VersionOne,  Inc.</authors>
+    <owners>VersionOne,  Inc.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Description</description>
+    <copyright>Copyright 2013-2014, VersionOne, Inc. Please see the LICENSE.MD file.</copyright>
+    <dependencies>
+      <dependency id="FParsec" version="1.0.1" />
+    </dependencies>
+  </metadata>
+</package>

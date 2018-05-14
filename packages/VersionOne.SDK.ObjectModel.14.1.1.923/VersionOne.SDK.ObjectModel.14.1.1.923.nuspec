@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>VersionOne.SDK.ObjectModel</id>
+    <version>14.1.1.923</version>
+    <title>VersionOne SDK.NET ObjectModel</title>
+    <authors>VersionOne,  Inc.</authors>
+    <owners>VersionOne,  Inc.</owners>
+    <licenseUrl>https://github.com/versionone/VersionOne.SDK.NET.ObjectModel/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/versionone/VersionOne.SDK.NET.ObjectModel/</projectUrl>
+    <iconUrl>https://raw.github.com/versionone/VersionOne.SDK.NET.ObjectModel/master/32px.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides strongly-typed VersionOne model objects (Project, Story, Iteration, etc) for building custom applications against the VersionOne platform. For details about what product releases this has been tested against, see https://github.com/versionone/VersionOne.SDK.NET.ObjectModel/wiki/Which-product-releases-has-the-ObjectModel-library-been-tested-against%3F</description>
+    <copyright>Copyright 2012</copyright>
+    <tags>V1 VersionOne API ObjectModel agile</tags>
+    <dependencies>
+      <dependency id="VersionOne.SDK.APIClient" version="[14.0, 15.0)" />
+    </dependencies>
+  </metadata>
+</package>

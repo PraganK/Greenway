@@ -1,0 +1,22 @@
+<h1>Greenway Teams</h1>
+
+<p *ngIf="!teams"><em>Loading...</em></p>
+
+<table class='table' *ngIf="teams">
+    <thead>
+        <tr>
+            <th>Sl.no</th>
+            <th>Team</th>
+            <th>Category</th>
+            <th>Size</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let team of teams; let i=index">
+            <td>{{ team.id }}</td>
+            <td>{{ team.name }}</td>
+            <td>{{ team.category }}</td>
+            <td>{{ i*2 }}</td>
+        </tr>
+    </tbody>
+</table>
